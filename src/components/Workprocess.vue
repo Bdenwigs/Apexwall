@@ -18,11 +18,10 @@
                         <div class="inner">
                             <span>01</span>
                             <h4 class="title">
-                                Planning and Concept
-                                Development
+                                Free Consultation & Quote
                             </h4>
                             <p class="disc">
-                                This initial phase is crucial for setting the foundation of the design project.
+                                We start by listening to your ideas, discussing your needs, and providing a detailed, no-obligation estimate.   
                             </p>
                         </div>
                     </div>
@@ -34,10 +33,10 @@
                         <div class="inner">
                             <span>02</span>
                             <h4 class="title">
-                                Documentation and Construction Drawings
+                               Design & Planning
                             </h4>
                             <p class="disc">
-                                This initial phase is crucial for setting the foundation of the design project.
+                                Our experts develop a comprehensive plan, including design suggestions and material selections, ensuring every detail aligns with your vision.   
                             </p>
                         </div>
                     </div>
@@ -49,11 +48,10 @@
                         <div class="inner">
                             <span>03</span>
                             <h4 class="title">
-                                Project Management
-                                & Implementation
+                              Expert Execution
                             </h4>
                             <p class="disc">
-                                This initial phase is crucial for setting the foundation of the design project.
+                                Our skilled team carries out the work with precision, adhering to agreed timelines and the highest quality standards.   
                             </p>
                         </div>
                     </div>
@@ -65,11 +63,10 @@
                         <div class="inner">
                             <span>04</span>
                             <h4 class="title">
-                                Implementation and
-                                Styling
+                               Completion & Aftercare
                             </h4>
                             <p class="disc">
-                                This initial phase is crucial for setting the foundation of the design project.
+                                We ensure your complete satisfaction with the finished project and offer ongoing support.
                             </p>
                         </div>
                     </div>

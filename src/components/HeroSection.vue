@@ -23,8 +23,8 @@
                                                         Raise the Standard and Transform Your Office & Home Interiors with
                                                         Peterborough's Trusted Specialists
                                                     </p>
-                                                    <a href="" class="rts-btn btn-border radious">Recent Project<i
-                                                            class="fa-thin fa-arrow-right"></i></a>
+                                                    <router-link to="/portfolio" class="rts-btn btn-border radious">Recent Project<i
+                                                            class="fa-thin fa-arrow-right"></i></router-link>
 
                                                 </div>
                                             </div>
@@ -47,10 +47,10 @@
                                                     <h1 class="title"> Raise the Standard and Transform  <br>
                                                         Your Office & Home Interiors</h1>
                                                     <p class="disc">
-                                                        At Apex Wall, we believe your home should be a reflection of your dreams. As Peterborough's leading home refurbishment, interior design, and painting specialists, we bring unparalleled experience and a commitment to quality to every project.
+                                                        At Apex Wall, we believe your home should be a reflection of your dreams. <br>As Peterborough's leading home refurbishment, interior design, and painting <br>specialists, we bring unparalleled experience and a commitment to quality to every project.
                                                     </p>
-                                                    <a href="" class="rts-btn btn-border radious">Recent Project<i
-                                                            class="fa-thin fa-arrow-right"></i></a>
+                                                    <router-link to="/portfolio" class="rts-btn btn-border radious">Recent Project<i
+                                                        class="fa-thin fa-arrow-right"></i></router-link>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -74,8 +74,8 @@
                                                     <p class="disc">
                                                         We believe that a well-designed space can have a profound impact quality life.
                                                     </p>
-                                                    <a href="" class="rts-btn btn-border radious">Recent Project<i
-                                                            class="fa-thin fa-arrow-right"></i></a>
+                                                    <router-link to="/portfolio" class="rts-btn btn-border radious">Recent Project<i
+                                                        class="fa-thin fa-arrow-right"></i></router-link>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">

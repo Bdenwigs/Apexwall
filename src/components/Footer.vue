@@ -6,14 +6,13 @@
                 <div class="col-lg-12">
                     <div class="footer-area-wrapper-one">
                         <div class="single-footer-wized">
-                            <a href="index.html#" class="logo">
+                            <a href="/" class="logo">
                                 <img src="/assets/images/logo/apex_logo_white.png" alt="logo">
                             </a>
                             <p class="disc">
-                                we are passionate about creating exceptional
-                                interior spaces that inspire, delight, and enhance the lives of our clients.
+                                Apex Wall is your trusted partner for home refurbishment, interior design, and painting services in Peterborough, UK. Transform your space with our expert craftsmanship and personalized approach. Contact us today for a free, no-obligation quote
                             </p>
-                            <form action="index.html#">
+                            <form action="">
                                 <div class="input-email">
                                     <input type="text" placeholder="Enter your email address" required>
                                     <button><i class="fa-thin fa-arrow-right"></i></button>
@@ -24,15 +23,20 @@
                             <div class="menu-links-area">
                                 <h6 class="title">Company</h6>
                                 <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="team-1.html">Our team</a></li>
-                                    <li><a href="service-1.html">Our Services</a></li>
-                                    <li><a href="portfolio-grid-1.html">Work Project</a></li>
-                                    <li><a href="faq.html">Help</a></li>
+                                    <li >
+                                        <router-link class="nav-link" to="/about">About Us</router-link>
+                                    </li>
+                                    <li >
+                                        <router-link class="nav-link" to="/services">Services</router-link>
+                                    </li>
+                                    <li >
+                                        <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
+                                    </li>
+                                    <li><router-link to="/contact">Contact</router-link></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="single-footer-wized">
+                        <!-- <div class="single-footer-wized">
                             <div class="menu-links-area">
                                 <h6 class="title">Useful Links</h6>
                                 <ul>
@@ -43,7 +47,7 @@
                                     <li><a href="contact.html">Support</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="single-footer-wized">
                             <div class="menu-links-area">
                                 <h6 class="title">Contact</h6>
@@ -54,7 +58,7 @@
                                             <i class="fa-regular fa-phone-volume"></i>
                                         </div>
                                         <div class="information">
-                                            <a href="Tel:1234567890">+23 5825-32535</a>
+                                            <a href="tel:+44 7876 237139">+44 7876 237139</a>
                                             <span class="support">Call us for support</span>
                                         </div>
                                     </div>
@@ -65,7 +69,7 @@
                                             <i class="fa-regular fa-envelope"></i>
                                         </div>
                                         <div class="information">
-                                            <a href="mailto:example@example.com">innov@gmail.com</a>
+                                            <a href="mailto:example@example.com">info@apexwall.com</a>
                                             <span class="support">Email us for query</span>
                                         </div>
                                     </div>
@@ -76,9 +80,8 @@
                                             <i class="fa-regular fa-map-location-dot"></i>
                                         </div>
                                         <div class="information">
-                                            <a href="https://www.google.com/maps" target="_blank">1058 Helton Ave,
-                                                Stky</a>
-                                            <span class="support">Berlin, Germany</span>
+                                            <a href="https://www.google.com/maps" target="_blank">9 Westwood park road Peterborough  Pe36jl</a>
+                                            <span class="support">United Kingdom</span>
                                         </div>
                                     </div>
                                     <!-- single  contact info end -->
@@ -94,15 +97,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-area-main-wrapper-one">
-                            <p class="left">Copyright
-                              . All Rights Reserved.
+                            <p class="left">© 2025 Apex Wall. All rights reserved. Serving Peterborough and surrounding areas with pride.
                             </p>
                             <ul>
                                 <li>
-                                    <a href="terms-and-condition.html">Terms & conditions</a>
+                                    <a href="">Terms & conditions</a>
                                 </li>
                                 <li>
-                                    <a href="privacy-policy.html">Privacy policy</a>
+                                    <a href="">Privacy policy</a>
                                 </li>
                             </ul>
                         </div>

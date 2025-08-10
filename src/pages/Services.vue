@@ -40,8 +40,7 @@ import Footer from '@/components/Footer.vue';
                         </div>
                         <h2 class="title">Our Services</h2>
                         <p class="disc">
-                            we are proud to have a dedicated and skilled team of professionals <br>
-who are passionate about interior renovation and design.
+                            At Apex Wall, we offer a comprehensive range of services designed to elevate your property. Each project is executed with meticulous attention to detail, ensuring exceptional results that stand the test of time.
                         </p>
                     </div>
                 </div>
@@ -65,11 +64,11 @@ who are passionate about interior renovation and design.
                                 <path d="M23.5196 41.9744H19.7969V43.3704H23.5196V41.9744Z" fill="white"></path>
                             </svg>
                         </div>
-                        <h6 class="title">Space Planning</h6>
+                        <h6 class="title"> Home Refurbishing & Renovations</h6>
                         <p class="disc">
-                            Space planning is a fundamental aspect off interior design that focuses on arranging.
+                            From concept to completion, we manage every aspect of your home refurbishment project, ensuring a seamless and stress-free experience. We specialize in maximizing space, enhancing functionality, and adding significant value to your property.  
                         </p>
-                        <a href="service-details.html" class="read-more-btn">Read More<i class="fa-light fa-chevron-right"></i></a>
+                        <!-- <a href="service-details.html" class="read-more-btn">Read More<i class="fa-light fa-chevron-right"></i></a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
@@ -99,11 +98,11 @@ who are passionate about interior renovation and design.
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M65.4886 31.3884C64.9965 31.3884 64.6098 31.0018 64.6098 30.5097C64.6098 27.8383 62.4657 25.6942 59.7944 25.6942C57.0879 25.6942 54.9086 27.8383 54.9086 30.5097C54.9086 31.0018 54.5219 31.3884 54.0299 31.3884C53.5378 31.3884 53.1511 31.0018 53.1511 30.5097V6.53779C53.1511 2.9174 56.0685 0 59.7241 0C63.3444 0 66.2618 2.9174 66.2618 6.53779V30.58C66.297 31.0721 65.9103 31.3884 65.4886 31.3884ZM59.7944 1.68717C57.0879 1.68717 54.9086 3.83128 54.9086 6.53779V26.1863C56.1037 24.8506 57.826 24.0422 59.7944 24.0422C61.6924 24.0422 63.4499 24.8506 64.6098 26.1863V6.53779C64.6098 3.83128 62.4657 1.68717 59.7944 1.68717Z" fill="#30373E"></path>
                             </svg>
                         </div>
-                        <h6 class="title">Home Staging</h6>
+                        <h6 class="title">Interior Design & Decoration</h6>
                         <p class="disc">
-                            Space planning is a fundamental aspect off interior design that focuses on arranging.
+                            Elevate your living spaces with our expert interior design and decoration services. We focus on creating attractive, timeless, and welcoming environments that truly reflect your style.  
                         </p>
-                        <a href="service-details.html" class="read-more-btn">Read More<i class="fa-light fa-chevron-right"></i></a>
+                        <!-- <a href="service-details.html" class="read-more-btn">Read More<i class="fa-light fa-chevron-right"></i></a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
@@ -144,14 +143,14 @@ who are passionate about interior renovation and design.
                                 <path d="M16.5466 39.1966H14.92C14.5466 39.1966 14.2533 38.9033 14.2533 38.5299C14.2533 38.1566 14.5466 37.8633 14.92 37.8633H16.5333C16.9066 37.8633 17.2 38.1566 17.2 38.5299C17.2 38.9033 16.9066 39.1966 16.5466 39.1966Z" fill="#30373E"></path>
                             </svg>
                         </div>
-                        <h6 class="title">Interior Design</h6>
+                        <h6 class="title">Professional Painting Services</h6>
                         <p class="disc">
-                            Space planning is a fundamental aspect off interior design that focuses on arranging.
+                            Our skilled painters and decorators deliver flawless finishes, transforming interiors and exteriors with precision and care. We work efficiently to minimize disruption to your home or business.  
                         </p>
-                        <a href="service-details.html" class="read-more-btn">Read More<i class="fa-light fa-chevron-right"></i></a>
+                        <!-- <a href="service-details.html" class="read-more-btn">Read More<i class="fa-light fa-chevron-right"></i></a> -->
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                <!-- <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="single-service-area-one">
                         <div class="icon">
                             <svg width="68" height="50" viewBox="0 0 68 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -178,7 +177,7 @@ who are passionate about interior renovation and design.
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M65.4886 31.3884C64.9965 31.3884 64.6098 31.0018 64.6098 30.5097C64.6098 27.8383 62.4657 25.6942 59.7944 25.6942C57.0879 25.6942 54.9086 27.8383 54.9086 30.5097C54.9086 31.0018 54.5219 31.3884 54.0299 31.3884C53.5378 31.3884 53.1511 31.0018 53.1511 30.5097V6.53779C53.1511 2.9174 56.0685 0 59.7241 0C63.3444 0 66.2618 2.9174 66.2618 6.53779V30.58C66.297 31.0721 65.9103 31.3884 65.4886 31.3884ZM59.7944 1.68717C57.0879 1.68717 54.9086 3.83128 54.9086 6.53779V26.1863C56.1037 24.8506 57.826 24.0422 59.7944 24.0422C61.6924 24.0422 63.4499 24.8506 64.6098 26.1863V6.53779C64.6098 3.83128 62.4657 1.68717 59.7944 1.68717Z" fill="#30373E"></path>
                             </svg>
                         </div>
-                        <h6 class="title">Home Staging</h6>
+                        <h6 class="title">Our Comprehensive Services</h6>
                         <p class="disc">
                             Space planning is a fundamental aspect off interior design that focuses on arranging.
                         </p>
@@ -235,7 +234,7 @@ who are passionate about interior renovation and design.
                         </p>
                         <a href="service-details.html" class="read-more-btn">Read More<i class="fa-light fa-chevron-right"></i></a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -253,7 +252,7 @@ who are passionate about interior renovation and design.
                         </div>
                         <h2 class="title">Have a Project in mind? <br>
                         Do not hesitate to say hello.</h2>
-                        <a href="service-1.html#" class="rts-btn  btn-border radious-3 mt--50">Let’s Build<i class="fa-regular fa-arrow-right"></i></a>
+                        <router-link to="/contact" class="rts-btn  btn-border radious-3 mt--50">Let’s Build<i class="fa-regular fa-arrow-right"></i></router-link>
                     </div>
                 </div>
             </div>

@@ -24,22 +24,23 @@ import Footer from '@/components/Footer.vue';
                         <img src="/assets/images/about/12.png" alt="about">
                     </div>
                     <div class="history-image-left mt--55 rts-reveal-one">
-                        <img class="rts-reveal-image-one" src="/assets/images/about/13.jpg" alt="about">
+                        <img class="rts-reveal-image-one" src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754689583/WhatsApp_Image_2025-08-08_at_09.43.36_xt0m7g.jpg" alt="about">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 mt_sm--50">
                     <div class="history-right-area-inner">
+                        <h3 class="title">About Apex Wall</h3>
                         <p class="disc rts-slide-up">
-                            Our story is rooted in passion, creativity, and a commitment to excellence. We started as a small team of individuals with a shared love for interior design and a vision to transform spaces into inspiring environments.
+                            Founded by Ikenna Denwigwe, Apex Wall is built on a passion for transforming spaces and a commitment to excellence. With years of experience in painting, decorating, and property refurbishment, Ikenna leads a team of skilled professionals who share his dedication to quality and customer satisfaction.
                         </p>
                         <p class="disc rts-slide-up">
-                            Our journey began when David Richard our visionary founder, recognized the need for personalized, innovative, and high-quality interior renovation services. With a background in design and a passion for creating beautiful and functional spaces, David Richard set out to build a company that would deliver exceptional results and exceed client expectations.
+                            Our philosophy is simple: every space should inspire. Whether it’s a cozy family home, a vibrant commercial space, or a historic Peterborough property, we bring creativity, craftsmanship, and care to every project. With our “one-stop-shop” approach, we handle every aspect of your transformation, so you can focus on enjoying the results.
                         </p>
                         <p class="disc rts-slide-up">
-                            From humble beginnings, we steadily grew, building a reputation for our expertise, attention to detail, and client-focused approach. We have had the privilege of working with a diverse range of clients, each with unique needs and visions for their spaces. We take pride in our ability to bring those visions to life, blending creativity, functionality, and craftsmanship into every project we undertake.
+                            Whether you're envisioning a complete property overhaul, a stylish interior refresh, or a flawless new coat of paint, our dedicated team is here to turn your vision into a stunning reality. We serve Peterborough, UK, and the surrounding areas, ensuring local expertise and a personalized approach for every client.
                         </p>
                         <div class="history-right-img mt--80 rts-reveal-one">
-                            <img class="rts-reveal-image-one" src="/assets/images/about/14.png" alt="">
+                            <img class="rts-reveal-image-one " src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754746953/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_bxgwof.jpg"  alt="">
                         </div>
                     </div>
                 </div>
@@ -66,13 +67,12 @@ import Footer from '@/components/Footer.vue';
                         </div>
                         <!-- title mid text -->
                         <p class="disc">
-                            At Luxury Living Designs, we specialize in creating extraordinary living spaces that exude
-                            elegance.
+                            We offer a full spectrum of home transformation services, meticulously tailored to your needs and delivered with exceptional craftsmanship..
                         </p>
-                        <a href="about.html#" class="rts-read-more-circle-btn under-line">
+                        <router-link  to="/services" class="rts-read-more-circle-btn under-line">
                             <i class="fa-solid fa-arrow-up-right"></i>
                             <p>View All Services</p>
-                        </a>
+                        </router-link>
                     </div>
                 </div>
             </div>
@@ -89,13 +89,13 @@ import Footer from '@/components/Footer.vue';
                             </svg>
                         </div>
                         <div class="body">
-                            <a href="about.html#">
-                                <h6 class="title">Architectural Design</h6>
+                            <a href="">
+                                <h6 class="title">Home Refurbishing & Renovations</h6>
                             </a>
                             <p class="disc">
-                                Space planning is a fundamental aspect off interior design.
+                                From concept to completion, we manage every aspect of your home refurbishment project, ensuring a seamless and stress-free experience. We specialize in maximizing space, enhancing functionality, and adding significant value to your property.  
                             </p>
-                            <a href="about.html#">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <!-- <a href="">Read More <i class="fa-solid fa-chevron-right"></i></a> -->
                         </div>
                     </div>
                     <!-- single-service end -->
@@ -139,13 +139,13 @@ import Footer from '@/components/Footer.vue';
                             </svg>
                         </div>
                         <div class="body">
-                            <a href="about.html#">
-                                <h6 class="title">Residential Space</h6>
+                            <a href="">
+                                <h6 class="title">Interior Design & Decoration</h6>
                             </a>
                             <p class="disc">
-                                Space planning is a fundamental aspect off interior design.
+                                Elevate your living spaces with our expert interior design and decoration services. We focus on creating attractive, timeless, and welcoming environments that truly reflect your style.  
                             </p>
-                            <a href="about.html#">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <!-- <a href="">Read More <i class="fa-solid fa-chevron-right"></i></a> -->
                         </div>
                     </div>
                     <!-- single-service end -->
@@ -170,13 +170,13 @@ import Footer from '@/components/Footer.vue';
                             </svg>
                         </div>
                         <div class="body">
-                            <a href="about.html#">
-                                <h6 class="title">Home Renovation</h6>
+                            <a href="">
+                                <h6 class="title">Professional Painting Services</h6>
                             </a>
                             <p class="disc">
-                                Space planning is a fundamental aspect off interior design.
+                                Our skilled painters and decorators deliver flawless finishes, transforming interiors and exteriors with precision and care. We work efficiently to minimize disruption to your home or business.  
                             </p>
-                            <a href="about.html#">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <!-- <a href="">Read More <i class="fa-solid fa-chevron-right"></i></a> -->
                         </div>
                     </div>
                     <!-- single-service end -->
@@ -200,13 +200,13 @@ import Footer from '@/components/Footer.vue';
                             </svg>
                         </div>
                         <div class="body">
-                            <a href="about.html#">
-                                <h6 class="title">Space Planning</h6>
+                            <a href="">
+                                <h6 class="title">Professional Painting Services</h6>
                             </a>
                             <p class="disc">
-                                Space planning is a fundamental aspect off interior design.
+                                Our skilled painters and decorators deliver flawless finishes, transforming interiors and exteriors with precision and care. We work efficiently to minimize disruption to your home or business.  
                             </p>
-                            <a href="about.html#">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                            <!-- <a href="">Read More <i class="fa-solid fa-chevron-right"></i></a> -->
                         </div>
                     </div>
                     <!-- single-service end -->
@@ -225,7 +225,7 @@ import Footer from '@/components/Footer.vue';
             <div class="row">
                 <div class="col-lg-6">
                     <div class="contct-thumbnail-left rts-reveal-one">
-                        <img class="rts-reveal-image-one" src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754207539/Downpic.cc-2567421671_o0rgm2.jpg" width="700" alt="">
+                        <img class="rts-reveal-image-one" src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754208002/people-renovating-house-concept_yffmvr.jpg" width="700" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 pl--60 pr--100 pr_md--10 pr_sm--10 pl_sm--10 pl_md--10 pt_md--50 pt_sm--50">
@@ -234,7 +234,7 @@ import Footer from '@/components/Footer.vue';
                             <span class="pre">Feature Services</span>
                             <h2 class="title">have any questions</h2>
                         </div>
-                        <form action="about.html#">
+                        <form action="">
                             <input type="text" placeholder="Your Name">
                             <input type="text" placeholder="Your Number">
                             <textarea placeholder="Send Message"></textarea>

@@ -89,7 +89,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="" class="rts-btn btn-border">View Details</a>
+                        <router-link to="/services" class="rts-btn btn-border">View Details</router-link>
                     </div>
                 </div>
                 <div class="col-lg-8 pl--60 rts-slide-up pl_sm--0 pl_md--0 mt_sm--50 mt_md--50">
@@ -116,8 +116,8 @@
                                 <p class="disc">
                                     We provide tailored home transformation services, ensuring exceptional craftsmanship and meeting your unique needs.
                                 </p>
-                                <a href="" class="read-more-btn">Read More<i
-                                        class="fa-light fa-chevron-right"></i></a>
+                                <!-- <a href="" class="read-more-btn">Read More<i
+                                        class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -151,8 +151,8 @@
                                 <p class="disc">
                                     We manage every aspect of your refurbishment project, maximizing space and enhancing functionality seamlessly.
                                 </p>
-                                <a href="" class="read-more-btn">Read More<i
-                                        class="fa-light fa-chevron-right"></i></a>
+                                <!-- <a href="" class="read-more-btn">Read More<i
+                                        class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -197,8 +197,8 @@
                                 <p class="disc">
                                     Transform your spaces with timeless designs that reflect your style and create welcoming environments.
                                 </p>
-                                <a href="" class="read-more-btn">Read More<i
-                                        class="fa-light fa-chevron-right"></i></a>
+                                <!-- <a href="" class="read-more-btn">Read More<i
+                                        class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -215,8 +215,8 @@
                                 <p class="disc">
                                     Our painters deliver flawless finishes, transforming interiors and exteriors with precision and care.
                                 </p>
-                                <a href="" class="read-more-btn">Read More<i
-                                        class="fa-light fa-chevron-right"></i></a>
+                                <!-- <a href="" class="read-more-btn">Read More<i
+                                        class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -239,13 +239,11 @@
                                 <img src="/assets/images/about/02.png" alt="about">
                                 <span class="pre-title">Our Project</span>
                             </div>
-                            <h2 class="title quote">Explore our Amazing <br>
-                                Interior Designs</h2>
+                            <h2 class="title quote">Discover Our Stunning <br></br>
+                                Transformations</h2>
                         </div>
                         <p class="disc">
-                            Our interior design project revolves around transforming a residential space into a modern
-                            and inviting oasis. With a focus on functionality and aesthetics, our team of talented
-                            designers will collaborate closely.
+                            At Apex Wall, every project is a canvas for creativity and craftsmanship. From elegant home refurbishments to vibrant commercial spaces, our portfolio showcases the artistry and precision we bring to every transformation in Peterborough. Explore our work and see how we turn visions into reality.
                         </p>
                         <div class="swiper-next-prev-wrapper">
                             <div class="swiper-button-next"></div>
@@ -266,12 +264,12 @@
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>01</span>
-                                        <a href="product-details-1.html" class="thumbnail">
-                                            <img src="/assets/images/product/01.jpg" alt="product">
+                                        <a href="" class="thumbnail">
+                                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.51_4_xyp3xv.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="product-details-1.html">
-                                                <h3 class="title">living room interior </h3>
+                                            <a href="">
+                                                <h3 class="title">Kitchen Renovation</h3>
                                             </a>
                                             <span class="category">Interior Design</span>
                                         </div>
@@ -282,28 +280,29 @@
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>02</span>
-                                        <a href="product-details-1.html" class="thumbnail">
-                                            <img src="/assets/images/product/02.jpg" alt="product">
+                                        <a href="" class="thumbnail">
+                                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239127/WhatsApp_Image_2025-08-03_at_17.37.52_h52jap.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="product-details-1.html">
-                                                <h3 class="title">Design Portfolio more</h3>
+                                            <a href="">
+                                                <h3 class="title">Toilet Repair & Upgrade</h3>
                                             </a>
                                             <span class="category">Interior Design</span>
                                         </div>
                                     </div>
                                     <!-- single swiper-item end -->
                                 </div>
+                             
                                 <div class="swiper-slide">
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>03</span>
-                                        <a href="product-details-1.html" class="thumbnail">
-                                            <img src="/assets/images/product/03.jpg" alt="product">
+                                        <a href="" class="thumbnail">
+                                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.52_2_dielwt.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="product-details-1.html">
-                                                <h3 class="title">Filmography Reel</h3>
+                                            <a href="">
+                                                <h3 class="title">Room Remodeling </h3>
                                             </a>
                                             <span class="category">Interior Design</span>
                                         </div>
@@ -314,30 +313,14 @@
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>04</span>
-                                        <a href="product-details-1.html" class="thumbnail">
-                                            <img src="/assets/images/product/04.jpg" alt="product">
+                                        <a href="" class="thumbnail">
+                                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239113/WhatsApp_Image_2025-08-03_at_17.37.51_2_undtoo.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="product-details-1.html">
-                                                <h3 class="title">living room interior </h3>
+                                            <a href="">
+                                                <h3 class="title">General Building Work</h3>
                                             </a>
-                                            <span class="category">Interior Design</span>
-                                        </div>
-                                    </div>
-                                    <!-- single swiper-item end -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- single swiper-item -->
-                                    <div class="single-product-one">
-                                        <span>05</span>
-                                        <a href="product-details-1.html" class="thumbnail">
-                                            <img src="/assets/images/product/03.jpg" alt="product">
-                                        </a>
-                                        <div class="inenr-content-absolute">
-                                            <a href="product-details-1.html">
-                                                <h3 class="title">Coding Creations Morp</h3>
-                                            </a>
-                                            <span class="category">Interior Design</span>
+                                            <span class="category"></span>
                                         </div>
                                     </div>
                                     <!-- single swiper-item end -->
@@ -372,7 +355,7 @@
                                     <!-- single-counter-wrapper -->
                                     <div class="single-counter">
                                         <div class="inner">
-                                            <h2 class="title"><span class="counter animated fadeInDownBig">37</span>k
+                                            <h2 class="title"><span class="counter animated fadeInDownBig">100</span>+
                                             </h2>
                                             <p>Project Done</p>
                                         </div>
@@ -381,7 +364,7 @@
                                     <!-- single-counter-wrapper -->
                                     <div class="single-counter">
                                         <div class="inner">
-                                            <h2 class="title"><span class="counter animated fadeInDownBig">200</span>+
+                                            <h2 class="title"><span class="counter animated fadeInDownBig">100</span>+
                                             </h2>
                                             <p>Happy Clients</p>
                                         </div>
@@ -390,7 +373,7 @@
                                     <!-- single-counter-wrapper -->
                                     <div class="single-counter">
                                         <div class="inner">
-                                            <h2 class="title"><span class="counter animated fadeInDownBig">25</span>+
+                                            <h2 class="title"><span class="counter animated fadeInDownBig">5</span>+
                                             </h2>
                                             <p>Award Winning</p>
                                         </div>
@@ -399,7 +382,7 @@
                                     <!-- single-counter-wrapper -->
                                     <div class="single-counter">
                                         <div class="inner">
-                                            <h2 class="title"><span class="counter animated fadeInDownBig">16</span>+
+                                            <h2 class="title"><span class="counter animated fadeInDownBig">5</span>+
                                             </h2>
                                             <p>Year Experience</p>
                                         </div>
@@ -451,17 +434,14 @@
                                         <div class="top-quote">
                                             <img src="/assets/images/testimonials/03.png" alt="tstimonials">
                                         </div>
-                                        <p>Working with your team was an absolute pleasure. From the initial concept to
-                                            the final installation, every step was executed with professionalism and
-                                            attention to detail. The end result exceeded our expectations, and couldn't
-                                            be happier with our beautifully transformed space.</p>
+                                        <p>Apex Wall transformed our outdated kitchen into a modern masterpiece! Their team was professional, communicative, and finished the project on time with impeccable attention to detail. Ikenna’s expertise in design and craftsmanship truly made our vision come to life. Highly recommend.</p>
                                         <div class="author-area">
                                             <div class="thumbnail">
-                                                <img src="/assets/images/testimonials/02.png" alt="tstimonials">
+                                                <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754743277/54b19ada-d53e-4ee9-8882-9dfed1bf1396_fxol39.jpg" width="50" alt="tstimonials">
                                             </div>
                                             <div class="info">
-                                                <h6 class="title">John William</h6>
-                                                <span>New Client</span>
+                                                <h6 class="title"> Sarah M.</h6>
+                                                <span>Peterborough Homeowner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -473,17 +453,14 @@
                                         <div class="top-quote">
                                             <img src="/assets/images/testimonials/03.png" alt="tstimonials">
                                         </div>
-                                        <p>Working with your team was an absolute pleasure. From the initial concept to
-                                            the final installation, every step was executed with professionalism and
-                                            attention to detail. The end result exceeded our expectations, and couldn't
-                                            be happier with our beautifully transformed space.</p>
+                                        <p>We hired Apex Wall to refurbish our office space in Peterborough, and the results were outstanding. Their commercial painting and interior design services created a vibrant, professional environment that our clients love. The team worked around our schedule to minimize disruption. Fantastic service.</p>
                                         <div class="author-area">
                                             <div class="thumbnail">
-                                                <img src="/assets/images/testimonials/04.png" alt="tstimonials">
+                                                <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754743514/58f94cc3-ebe3-4531-944c-6f0ad2b370e6_fihgwi.jpg" width="50"  alt="tstimonials">
                                             </div>
                                             <div class="info">
-                                                <h6 class="title">John William</h6>
-                                                <span>New Client</span>
+                                                <h6 class="title">James T.</h6>
+                                                <span>Peterborough Homeowner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -495,17 +472,14 @@
                                         <div class="top-quote">
                                             <img src="/assets/images/testimonials/03.png" alt="tstimonials">
                                         </div>
-                                        <p>Working with your team was an absolute pleasure. From the initial concept to
-                                            the final installation, every step was executed with professionalism and
-                                            attention to detail. The end result exceeded our expectations, and couldn't
-                                            be happier with our beautifully transformed space.</p>
+                                        <p>Our bathroom refit by Apex Wall was a game-changer. From the initial consultation to the final touches, they were transparent, reliable, and delivered a stunning, spa-like space. Their local knowledge of Peterborough homes made all the difference. We couldn’t be happier.</p>
                                         <div class="author-area">
                                             <div class="thumbnail">
-                                                <img src="/assets/images/testimonials/02.png" alt="tstimonials">
+                                                <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754743514/58f94cc3-ebe3-4531-944c-6f0ad2b370e6_fihgwi.jpg" width="50"  alt="tstimonials">
                                             </div>
                                             <div class="info">
-                                                <h6 class="title">John William</h6>
-                                                <span>New Client</span>
+                                                <h6 class="title">Emily R</h6>
+                                                <span>Longthorpe Resident</span>
                                             </div>
                                         </div>
                                     </div>

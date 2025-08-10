@@ -17790,7 +17790,7 @@ a {
 }
 
 .breadcrumb-area-bg {
-  background-image: url(../images/banner/21.jpg);
+  background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1754750599/mix-minimal-nordic-interior-design-with-japanese-wabi-sabi-style_ks9n41.jpg);
 }
 .breadcrumb-area-bg .bread-crumb-area-inner {
   text-align: center;
@@ -17815,7 +17815,7 @@ a {
   color: var(--color-primary);
 }
 .breadcrumb-area-bg .bread-crumb-area-inner .breadcrumb-top a.active {
-  color: #ffffff;
+  color: black;
 }
 .breadcrumb-area-bg .bread-crumb-area-inner .bottom-title .title {
   color: #fff;
@@ -19196,7 +19196,7 @@ a {
   font-weight: 700;
   line-height: 90px;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #E3E3E3;
+  -webkit-text-stroke-color: #b19777;
   color: transparent;
   font-family: var(--font-primary);
 }

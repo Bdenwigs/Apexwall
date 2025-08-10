@@ -7,8 +7,8 @@
                 <div class="col-lg-12">
                     <div class="bread-crumb-area-inner">
                         <div class="breadcrumb-top">
-                            <a href="about.html#">Home</a> /
-                            <a class="active" href="about.html#">About</a>
+                            <router-link to="/">Home</router-link> /
+                            <router-link class="active" to="/about">About</router-link>  
                         </div>
                         <div class="bottom-title">
                             <h1 class="title">About Us</h1>

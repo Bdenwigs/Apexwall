@@ -14,8 +14,8 @@ import Footer from '@/components/Footer.vue';
                 <div class="col-lg-12">
                     <div class="bread-crumb-area-inner">
                         <div class="breadcrumb-top">
-                            <a href="contact.html#">Home</a> /
-                            <a class="active" href="contact.html#">Contact Us</a>
+                            <router-link to="/">Home</router-link> /
+                            <router-link class="active" to="contact.html">Contact Us</router-link>
                         </div>
                         <div class="bottom-title">
                             <h1 class="title">Contact Us</h1>
@@ -41,15 +41,13 @@ import Footer from '@/components/Footer.vue';
             <div class="row mt--0 g-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="left-contact">
-                        <p class="top mb--30">
+                        <!-- <p class="top mb--30">
                             Innovat Interior & Architecture Firm
-                        </p>
+                        </p> -->
                         <p class="disc mb--20">
-                            An architecture firm is a professional organization that is our specializes in providing
-                            architectural services are typically comprised of a team of architects, designers, engineers
-                            and other professionals.
+                            Ready to transform your home or office into a space that inspires? Apex Wall is here to bring your vision to life with expert refurbishment, interior design, a
                         </p>
-                        <a href="contact.html#">Hot Line: +23 656 665 455</a>
+                        <a href="tel:+447876237139">Hot Line:+44 7876 237139t</a>
                         <div class="rts-social-style-one">
                             <ul>
                                 <li>
@@ -82,24 +80,24 @@ import Footer from '@/components/Footer.vue';
                         <div class="single-information mt--30">
                             <span>Address:</span>
                             <p class="address" style="text-decoration: underline;">
-                                1058 Helton Ave, Stky <br>
-                                Berlin, Germany
+                                9 Westwood park road<br></br>
+                                 Peterborough United Kingdom Pe36jl
                             </p>
                         </div>
                         <div class="single-information">
                             <span>Phone:</span>
-                            <a href="Tel:123-456-7890">
-                                +23 5825-32535
+                            <a href="Tel:+4478762371390">
+                                +44 7876 237139
                             </a>
                         </div>
                         <div class="single-information">
                             <span>Mail:</span>
                             <a href="mailto:webmaster@example.com">
-                                inno@gmail.com
+                                info@alexwall.co.uk
                             </a>
                         </div>
                     </div>
-                    <div class="contact-info-mid mt--40">
+                    <!-- <div class="contact-info-mid mt--40">
                         <p class="top-contact mb--20">Contact Details Two</p>
                         <div class="single-information mt--30">
                             <span>Address:</span>
@@ -120,11 +118,11 @@ import Footer from '@/components/Footer.vue';
                                 innovat@gmail.com
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <form class="contact-form-conatct-page" method="post" action="https://themewant.com/products/html/innovat/mailer.php" id="contact-form">
-                        <p class="top-contact mb--20">Contac Form</p>
+                        <p class="top-contact mb--20">Contact Form</p>
                         <input type="text" name="name" id="name" placeholder="Your Name" required>
                         <input type="email" name="email" id="email" placeholder="Your Email" required>
                         <input type="tel" name="phone" id="phone" placeholder="Your Number" required>
