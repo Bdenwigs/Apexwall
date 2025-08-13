@@ -404,6 +404,53 @@
     <!-- rts counter up section end -->
 
 
+      <!-- rts quote start -->
+      <div class="rts-about-area rts-section-gap bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 px-5">
+                    <div class="thumbnail-image">
+                        <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754750599/mix-minimal-nordic-interior-design-with-japanese-wabi-sabi-style_ks9n41.jpg" alt="about">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-inner-two-wrapper">
+                        <div class="title-left-style-two">
+                            <div class="pre-title">
+                                <span class="pre-title">Get a Quote</span>
+                                <img src="/assets/images/service/02.png" alt="service">
+                            </div>
+                            <h2 class="title quote">
+                                Request a Free Quote
+                            </h2>
+                        </div>
+                        <p class="disc">
+                            Ready to start your next project? Fill out the form below to get a free, no-obligation quote from our team of experts.
+                        </p>
+                    
+                        <form class="contact-form-conatct-page" action="https://formspree.io/f/mnnzwozw" method="POST" id="contact-form">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                            <input type="tel" name="phone" id="phone" placeholder="Your Number" required>
+                            <select class="form-select form-control-lg" name="service">
+                                <option selected >Select Service</option>
+                                <option value="refurbishment">Home Refurbishing</option>
+                                <option value="interior-design">Interior Design</option>
+                                <option value="painting">Painting</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <textarea name="message" id="message" placeholder="Your message"></textarea>
+                            <div id="form-messages"></div>
+                            <button class="rts-btn btn-primary mt--30" type="submit">Send Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts quote end -->
+
+
 
   
 

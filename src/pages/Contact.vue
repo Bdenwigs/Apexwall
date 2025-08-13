@@ -8,7 +8,7 @@ import Footer from '@/components/Footer.vue';
     <Header />
      <!-- header three area start -->
     <!-- bread croumba rea start -->
-    <div class="breadcrumb-area-bg bg_image">
+    <div class="breadcrumb-area-bg contact bg_image" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1755037980/04_vsldhb.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -121,7 +121,7 @@ import Footer from '@/components/Footer.vue';
                     </div> -->
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <form class="contact-form-conatct-page" method="post" action="https://themewant.com/products/html/innovat/mailer.php" id="contact-form">
+                    <form class="contact-form-conatct-page" action="https://formspree.io/f/myzpobpy" method="POST" id="contact-form">
                         <p class="top-contact mb--20">Contact Form</p>
                         <input type="text" name="name" id="name" placeholder="Your Name" required>
                         <input type="email" name="email" id="email" placeholder="Your Email" required>
@@ -136,7 +136,7 @@ import Footer from '@/components/Footer.vue';
         <div class="container mt--120 mb--120">
             <div class="row">
                 <div class="col-lg-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d8254.021045171208!2d-95.11818240981121!3d29.563301798292883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRestaurants!5e0!3m2!1sen!2sbd!4v1697535735266!5m2!1sen!2sbd" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.784163601413!2d-0.26568082268923937!3d52.573514372075195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877f1a0b1f2e51b%3A0x3b1c0cc17f154e2d!2s9%20Westwood%20Park%20Rd%2C%20Peterborough%20PE3%206JL%2C%20UK!5e0!3m2!1sen!2sng!4v1754946746406!5m2!1sen!2sng" width="600" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

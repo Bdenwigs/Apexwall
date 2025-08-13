@@ -2,7 +2,7 @@
   <Header />
 
    <!-- bread croumba rea start -->
-   <div class="breadcrumb-area-bg bg_image">
+   <div class="breadcrumb-area-bg bg_image" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1754208003/set-designer-work-indoors_metp7h.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -45,7 +45,7 @@
       <div class="row g-5 mt--30">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <div class="single-product-one">
-            <span>01</span>
+            <span>Toilet Repair & Upgrade</span>
             <a href="" class="thumbnail">
               <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239127/WhatsApp_Image_2025-08-03_at_17.37.52_h52jap.jpg" alt="product" />
             </a>
@@ -59,7 +59,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <div class="single-product-one">
-            <span>02</span>
+            <span>Kitchen Renovation</span>
             <a href="" class="thumbnail">
               <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.51_4_xyp3xv.jpg" alt="product" />
             </a>
@@ -73,7 +73,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <div class="single-product-one">
-            <span>03</span>
+            <span>Room Remodeling</span>
             <a href="" class="thumbnail">
               <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.52_2_dielwt.jpg" alt="product" />
             </a>
@@ -87,7 +87,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <div class="single-product-one">
-            <span>04</span>
+            <span>General Building Work</span>
             <a href="" class="thumbnail">
               <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239113/WhatsApp_Image_2025-08-03_at_17.37.51_2_undtoo.jpg" alt="product" />
             </a>
@@ -101,6 +101,40 @@
         </div>
         
       </div>
+
+
+      <div class="container-fluid pt-5 mt-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                  <h3 class="text-center">Toilet Repair & Upgrade</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239125/WhatsApp_Image_2025-08-03_at_17.37.52_4_fnrrl0.jpg" alt="before toilet refurbishment" class="img-fluid">
+                            <p class="text-center mt-2">Before</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239127/WhatsApp_Image_2025-08-03_at_17.37.52_h52jap.jpg" alt="toilet refurbishment" class="img-fluid">
+                            <p class="text-center mt-2">After</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                  <h3 class="text-center">Wall Screeding & Painting</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239130/WhatsApp_Image_2025-08-03_at_17.37.53_1_j4qbsg.jpg" alt="" class="img-fluid">
+                            <p class="text-center mt-2">Before</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.52_2_dielwt.jpg" alt="" class="img-fluid">
+                            <p class="text-center mt-2">After</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   </div>
   <Footer />

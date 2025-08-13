@@ -8,7 +8,7 @@ import Footer from '@/components/Footer.vue';
     <Header/>
        <!-- header three area start -->
     <!-- bread croumba rea start -->
-    <div class="breadcrumb-area-bg bg_image">
+    <div class="breadcrumb-area-bg bg_image" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1754208003/painting-walls-pink_wecydr.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -241,7 +241,7 @@ import Footer from '@/components/Footer.vue';
     <!-- rts service inner area end -->
 
     <!-- rts cta area -->
-    <div class="cta-inner-area bg_image ptb--120">
+    <div class="cta-inner-area bg_image ptb--120" >
         <div class="container-full">
             <div class="row">
                 <div class="col-lg-12">
