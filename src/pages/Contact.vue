@@ -47,7 +47,7 @@ import Footer from '@/components/Footer.vue';
                         <p class="disc mb--20">
                             Ready to transform your home or office into a space that inspires? Apex Wall is here to bring your vision to life with expert refurbishment, interior design, a
                         </p>
-                        <a href="tel:+447876237139">Hot Line:+44 7876 237139t</a>
+                        <a href="tel:+447876237139">Hot Line:+44 7876 237139</a>
                         <div class="rts-social-style-one">
                             <ul>
                                 <li>

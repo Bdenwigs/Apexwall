@@ -1,4 +1,5 @@
 <template>
+    
         <!-- footer area start -->
         <div class="rts-footer-area bg-footer-image bg_image">
         <div class="container">

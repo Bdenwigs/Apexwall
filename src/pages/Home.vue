@@ -432,13 +432,7 @@
                             <input type="text" name="name" id="name" placeholder="Your Name" required>
                             <input type="email" name="email" id="email" placeholder="Your Email" required>
                             <input type="tel" name="phone" id="phone" placeholder="Your Number" required>
-                            <select class="form-select form-control-lg" name="service">
-                                <option selected >Select Service</option>
-                                <option value="refurbishment">Home Refurbishing</option>
-                                <option value="interior-design">Interior Design</option>
-                                <option value="painting">Painting</option>
-                                <option value="other">Other</option>
-                            </select>
+                            <input type="text" name="service" id="service" placeholder="e.g Interior Design , Renovation, Painting e.t.c" required>
                             <textarea name="message" id="message" placeholder="Your message"></textarea>
                             <div id="form-messages"></div>
                             <button class="rts-btn btn-primary mt--30" type="submit">Send Now</button>
@@ -582,51 +576,25 @@
             </div>
             <div class="inner-content">
                 <p class="disc">
-                    Innovate Architects is a full-service design firm providing architecture architecture.
+                    Our philosophy is simple: every space should inspire. Whether it’s a cozy family home, a vibrant commercial space, or a historic Peterborough property, we bring creativity, craftsmanship, and care to every project. With our “one-stop-shop” approach, we handle every aspect of your transformation, so you can focus on enjoying the results.
                 </p>
                 <div class="contact-information--sidebar">
                     <h6 class="title">Contact Info</h6>
                     <div class="single-info">
-                        <a href="index.html#">+123 456 789 33</a>
+                        <a href="tel:+447876237139">+44 7876 237139</a>
                     </div>
                     <div class="single-info">
-                        <a href="index.html#">3 innovate Street, NY United <br> States of America</a>
+                        <a href="/">9 Westwood park road <br> Peterborough United Kingdom Pe36jl</a>
                     </div>
                     <div class="single-info">
-                        <a href="index.html#">Innovate@gmail.com</a>
+                        <a href="mailto:info@alexwall.co.uk">info@alexwall.co.uk</a>
                     </div>
-                    <h6 class="title mt--30">Office Address</h6>
-                    <div class="single-info">
-                        <a href="index.html#">+Time Square, New York <br> USA, 3454</a>
-                    </div>
-                    <div class="rts-social-style-one">
-                        <ul>
-                            <li>
-                                <a href="index.html#">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html#">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html#">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="index.html#">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                   
+                  
                 </div>
                 <div class="footer">
                     <h4 class="title">Got a project in mind?</h4>
-                    <a href="contact.html" class="rts-btn btn-primary">Let's talk</a>
+                    <router-link to="/contact" class="rts-btn btn-primary">Let's talk</router-link>
                 </div>
             </div>
         </div>
@@ -634,132 +602,43 @@
         <div class="mobile-menu-main">
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
-                    <li class="has-droupdown">
-                        <a href="index.html#" class="main">Home</a>
-                        <ul class="submenu mm-collapse">
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="index.html#">Multipages</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="index.html"></a>Home One</li>
-                                    <li><a href="index-two.html"></a>Home Two</li>
-                                    <li><a href="index-three.html"></a>Home Three</li>
-                                    <li><a href="index-four.html"></a>Home Four</li>
-                                    <li><a href="index-five.html"></a>Home Five</li>
-                                    <li><a href="index-six.html"></a>Home Six</li>
-                                    <li><a href="index-seven.html"></a>Home Seven</li>
-                                    <li><a href="index-eight.html"></a>Home Eight</li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="index.html#">Onepages</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="https://themewant.com/products/html/innovat/onepage.html"></a>One Page One</li>
-                                    <li><a href="onepage-two.html"></a>One Page Two</li>
-                                    <li><a href="onepage-three.html"></a>One Page Three</li>
-                                    <li><a href="onepage-four.html"></a>One Page Four</li>
-                                    <li><a href="onepage-five.html"></a>One Page Five</li>
-                                    <li><a href="onepage-six.html"></a>One Page Six</li>
-                                    <li><a href="onepage-seven.html"></a>One Page Seven</li>
-                                    <li><a href="onepage-eight.html"></a>One Page Eight</li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="index.html#">Showcase Pages</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="portfolio-boxes.html"></a>Carousel Slider</li>
-                                    <li><a href="varticle-portfolio.html"></a>Vertical Portfolio</li>
-                                    <li><a href="varticle-slider.html"></a>Varticl Slider</li>
-                                    <li><a href="varticle-slider-tab.html"></a>Vartical Tab Slider</li>
-                                    <li><a href="showcase-fade.html"></a>Showcase Fade</li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <li class="">
+                        <router-link class="main" to="/">Home</router-link>
                     </li>
-                    <li class="has-droupdown">
-                        <a href="index.html#" class="main">Services</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="service-1.html">Service One</a></li>
-                            <li><a class="mobile-menu-link" href="service-2.html">Service Two</a></li>
-                            <li><a class="mobile-menu-link" href="service-3.html">Service Three</a></li>
-                            <li><a class="mobile-menu-link" href="service-4.html">Service Four</a></li>
-                            <li><a class="mobile-menu-link" href="service-5.html">Service Five</a></li>
-                            <li><a class="mobile-menu-link" href="">Service Details</a></li>
-                        </ul>
+                    <li >
+                        <router-link class="main" to="/about">About</router-link>
                     </li>
-                    <li class="has-droupdown">
-                        <a href="index.html#" class="main">Portfolio</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="portfolio-grid-1.html">Portfolio Grid</a></li>
-                            <li><a class="mobile-menu-link" href="portfolio-grid-col-3.html">Portfolio Col-3</a></li>
-                            <li><a class="mobile-menu-link" href="portfolio-grid-col-4.html">Portfolio Col-4</a></li>
-                            <li><a class="mobile-menu-link" href="portfolio-varticle-grid.html">Portfolio Mesonary</a></li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="index.html#">Project Details</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="https://themewant.com/products/html/innovat/project-details-1.html"></a>Project Details v.1</li>
-                                    <li><a href="https://themewant.com/products/html/innovat/project-details-2.html"></a>Project Details v.2</li>
-                                    <li><a href="https://themewant.com/products/html/innovat/project-details-3.html"></a>Project Details v.3</li>
-                                    <li><a href="https://themewant.com/products/html/innovat/project-details-4.html"></a>Project Details v.4</li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <li >
+                        <router-link class="main" to="/services">Services</router-link>
+                       
                     </li>
-                    <li class="has-droupdown">
-                        <a href="index.html#" class="main">Blog</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>
-                            <li><a class="mobile-menu-link" href="blog-list.html">Blog List</a></li>
-                            <li><a class="mobile-menu-link" href="blog-2.html">Blog v.2</a></li>
-                            <li><a class="mobile-menu-link" href="blog-3.html">Blog v.3</a></li>
-                            <li><a class="mobile-menu-link" href="blog-4.html">Blog v.4</a></li>
-                            <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>
-                        </ul>
+                    <li >
+                        <router-link class="main" to="/portfolio">Portfolio</router-link>
                     </li>
-                    <li class="has-droupdown">
-                        <a href="index.html#" class="main">Pages</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="about.html">About</a></li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="index.html#">Team</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="team-1.html"></a>Team One</li>
-                                    <li><a href="team-2.html"></a>Team Two</li>
-                                    <li><a href="https://themewant.com/products/html/innovat/team-details.html"></a>Team Details</li>
-                                </ul>
-                            </li>
-                            <li><a class="mobile-menu-link" href="before-after.html">Before After</a></li>
-                            <li><a class="mobile-menu-link" href="pricing-plane.html">Pricing Plan</a></li>
-                            <li><a class="mobile-menu-link" href="faq.html">Faq's</a></li>
-                            <li><a class="mobile-menu-link" href="terms-and-condition.html">Terms & Conditions</a></li>
-                            <li><a class="mobile-menu-link" href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a class="mobile-menu-link" href="404.html">404 Page</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="main">Contact Us</a>
-                    </li>
+            
+                    <li><router-link class="main" to="/contact">Contact</router-link></li>
                 </ul>
             </nav>
 
             <div class="rts-social-style-one pl--20 mt--100">
                 <ul>
                     <li>
-                        <a href="index.html#">
+                        <a href="/">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#">
+                        <a href="/">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#">
+                        <a href="/">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#">
+                        <a href="/">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </li>
@@ -785,12 +664,12 @@
 
 
     <!-- start loader -->
-    <!-- <div class="loader-wrapper">
+    <div class="loader-wrapper">
     <div class="loader">
     </div>
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
-</div> -->
+</div>
     <!-- End loader -->
 
 
