@@ -546,9 +546,10 @@
         <div class="container">
             <div class="search-input-inner">
                 <div class="input-div">
-                    <input id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
-                    <button><i class="far fa-search"></i></button>
+                    <input v-model="searchQuery" @input="performSearch" id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
+                    <button @click.prevent="performSearch"><i class="far fa-search"></i></button>
                 </div>
+                <SearchResults :results="searchResults" />
             </div>
         </div>
         <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
@@ -602,21 +603,21 @@
         <div class="mobile-menu-main">
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
-                    <li class="">
-                        <router-link class="main" to="/">Home</router-link>
+                    <li>
+                        <a href="#" @click.prevent="navigate('/')" class="main">Home</a>
                     </li>
-                    <li >
-                        <router-link class="main" to="/about">About</router-link>
+                    <li>
+                        <a href="#" @click.prevent="navigate('/about')" class="main">About</a>
                     </li>
-                    <li >
-                        <router-link class="main" to="/services">Services</router-link>
-                       
+                    <li>
+                        <a href="#" @click.prevent="navigate('/services')" class="main">Services</a>
                     </li>
-                    <li >
-                        <router-link class="main" to="/portfolio">Portfolio</router-link>
+                    <li>
+                        <a href="#" @click.prevent="navigate('/portfolio')" class="main">Portfolio</a>
                     </li>
-            
-                    <li><router-link class="main" to="/contact">Contact</router-link></li>
+                    <li>
+                        <a href="#" @click.prevent="navigate('/contact')" class="main">Contact</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -657,6 +658,7 @@
             <div class="line"></div>
             <div class="line"></div>
         </div>
+        
     </div>
 
 
@@ -691,6 +693,13 @@ export default {
     Workprocess,
     HeroSection,
   },
+  methods: {
+    navigate(path) {
+      this.$router.push(path);
+      $('#side-bar').removeClass('show');
+      $('#anywhere-home').removeClass('bgshow');
+    }
+  }
 };
 </script>
 <style scoped>
