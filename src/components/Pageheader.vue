@@ -1,7 +1,7 @@
 <template>
       <!-- header three area start -->
     <!-- bread croumba rea start -->
-    <div class="breadcrumb-area-bg bg_image" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1754750599/mix-minimal-nordic-interior-design-with-japanese-wabi-sabi-style_ks9n41.jpg);">
+    <div class="breadcrumb-area-bg bg_image overlay" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1754750599/mix-minimal-nordic-interior-design-with-japanese-wabi-sabi-style_ks9n41.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

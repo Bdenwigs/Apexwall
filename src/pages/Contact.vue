@@ -8,7 +8,7 @@ import Footer from '@/components/Footer.vue';
     <Header />
      <!-- header three area start -->
     <!-- bread croumba rea start -->
-    <div class="breadcrumb-area-bg contact bg_image" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1755037980/04_vsldhb.jpg);">
+    <div class="breadcrumb-area-bg contact bg_image overlay" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1755037980/04_vsldhb.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -93,7 +93,7 @@ import Footer from '@/components/Footer.vue';
                         <div class="single-information">
                             <span>Mail:</span>
                             <a href="mailto:webmaster@example.com">
-                                info@alexwall.co.uk
+                                info@apexwall.co.uk
                             </a>
                         </div>
                     </div>
