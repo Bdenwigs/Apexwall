@@ -25,7 +25,7 @@ import Footer from '@/components/Footer.vue';
             </div>
         </div>
     </div>
-    <!-- bread croumba rea end -->
+    <!-- bread croumb area end -->
     <!-- header three area end -->
 
 

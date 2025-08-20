@@ -116,7 +116,7 @@
                                 <p class="disc">
                                     We provide tailored home transformation services, ensuring exceptional craftsmanship and meeting your unique needs.
                                 </p>
-                                <!-- <a href="" class="read-more-btn">Read More<i
+                                <!-- <a  class="read-more-btn">Read More<i
                                         class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                                 <p class="disc">
                                     We manage every aspect of your refurbishment project, maximizing space and enhancing functionality seamlessly.
                                 </p>
-                                <!-- <a href="" class="read-more-btn">Read More<i
+                                <!-- <a  class="read-more-btn">Read More<i
                                         class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                                 <p class="disc">
                                     Transform your spaces with timeless designs that reflect your style and create welcoming environments.
                                 </p>
-                                <!-- <a href="" class="read-more-btn">Read More<i
+                                <!-- <a  class="read-more-btn">Read More<i
                                         class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                                 <p class="disc">
                                     Our painters deliver flawless finishes, transforming interiors and exteriors with precision and care.
                                 </p>
-                                <!-- <a href="" class="read-more-btn">Read More<i
+                                <!-- <a  class="read-more-btn">Read More<i
                                         class="fa-light fa-chevron-right"></i></a> -->
                             </div>
                         </div>
@@ -264,11 +264,11 @@
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>01</span>
-                                        <a href="" class="thumbnail">
+                                        <a  class="thumbnail">
                                             <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.51_4_xyp3xv.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="">
+                                            <a >
                                                 <h3 class="title">Kitchen Renovation</h3>
                                             </a>
                                             <span class="category">Interior Design</span>
@@ -280,11 +280,11 @@
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>02</span>
-                                        <a href="" class="thumbnail">
+                                        <a  class="thumbnail">
                                             <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239127/WhatsApp_Image_2025-08-03_at_17.37.52_h52jap.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="">
+                                            <a >
                                                 <h3 class="title">Toilet Repair & Upgrade</h3>
                                             </a>
                                             <span class="category">Interior Design</span>
@@ -297,11 +297,11 @@
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>03</span>
-                                        <a href="" class="thumbnail">
+                                        <a  class="thumbnail">
                                             <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.52_2_dielwt.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="">
+                                            <a >
                                                 <h3 class="title">Room Remodeling </h3>
                                             </a>
                                             <span class="category">Interior Design</span>
@@ -313,11 +313,11 @@
                                     <!-- single swiper-item -->
                                     <div class="single-product-one">
                                         <span>04</span>
-                                        <a href="" class="thumbnail">
+                                        <a  class="thumbnail">
                                             <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239113/WhatsApp_Image_2025-08-03_at_17.37.51_2_undtoo.jpg" alt="product">
                                         </a>
                                         <div class="inenr-content-absolute">
-                                            <a href="">
+                                            <a >
                                                 <h3 class="title">General Building Work</h3>
                                             </a>
                                             <span class="category"></span>

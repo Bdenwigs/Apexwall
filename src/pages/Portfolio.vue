@@ -1,7 +1,7 @@
 <template>
   <Header />
 
-   <!-- bread croumba rea start -->
+   <!-- bread croumb area start -->
    <div class="breadcrumb-area-bg bg_image overlay" style="background-image: url(https://res.cloudinary.com/dz5vmj911/image/upload/v1754208003/set-designer-work-indoors_metp7h.jpg);">
         <div class="container">
             <div class="row">
@@ -42,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="row g-5 mt--30">
+      <!-- <div class="row g-5 mt--30">
         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
           <div class="single-product-one">
             <span>Toilet Repair & Upgrade</span>
@@ -100,34 +100,60 @@
           </div>
         </div>
         
-      </div>
+      </div> -->
 
 
-      <div class="container-fluid pt-5 mt-5">
+      <div class="container-fluid mt-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6 pt-md-5">
                   <h3 class="text-center">Toilet Repair & Upgrade</h3>
                     <div class="row">
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239125/WhatsApp_Image_2025-08-03_at_17.37.52_4_fnrrl0.jpg" alt="before toilet refurbishment" class="img-fluid">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239125/WhatsApp_Image_2025-08-03_at_17.37.52_4_fnrrl0.jpg" alt="before toilet refurbishment" class="img-fluid h-100">
                             <p class="text-center mt-2">Before</p>
                         </div>
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239127/WhatsApp_Image_2025-08-03_at_17.37.52_h52jap.jpg" alt="toilet refurbishment" class="img-fluid">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239127/WhatsApp_Image_2025-08-03_at_17.37.52_h52jap.jpg" alt="toilet refurbishment" class="img-fluid h-100">
                             <p class="text-center mt-2">After</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                  <h3 class="text-center">Wall Plastering & Painting</h3>
+                <div class="col-lg-6 pt-md-5">
+                  <h3 class="text-center">Wall Papering & Remodelling</h3>
                     <div class="row">
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239130/WhatsApp_Image_2025-08-03_at_17.37.53_1_j4qbsg.jpg" alt="" class="img-fluid">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1755666506/IMG-20250819-WA0013_zxwkan.jpg" alt="" class="img-fluid h-100">
                             <p class="text-center mt-2">Before</p>
                         </div>
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.52_2_dielwt.jpg" alt="" class="img-fluid">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1755666506/IMG-20250819-WA0015_wbn1gl.jpg" alt="" class="img-fluid h-100">
+                            <p class="text-center mt-2">After</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-md-5">
+                  <h3 class="text-center">Affordable Kitchen Makeover</h3>
+                    <div class="row">
+                        <div class="col-6 ">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/c_crop,ar_3:4/v1755668917/abbd4193-c790-4b14-8ff2-d38aebe22040.png" alt="" class="img-fluid h-100">
+                            <p class="text-center mt-2">Before</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.51_4_xyp3xv.jpg" alt="" class="img-fluid h-100">
+                            <p class="text-center mt-2">After</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-md-5">
+                  <h3 class="text-center">Wall Plastering & Painting</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239130/WhatsApp_Image_2025-08-03_at_17.37.53_1_j4qbsg.jpg" alt="" class="img-fluid h-100">
+                            <p class="text-center mt-2">Before</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.52_2_dielwt.jpg" alt="" class="img-fluid h-100">
                             <p class="text-center mt-2">After</p>
                         </div>
                     </div>
