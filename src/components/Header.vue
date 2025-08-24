@@ -1,9 +1,9 @@
 <template>
         <header class="header-three five  header--sticky pt-30 pb-30" style="position: relative; background: #fff;  ">
-        <a href="index.html" class="logo-area">
+        <router-link to="/" class="logo-area">
             <img src="/assets/images/logo/apex_logo.png" width="150"  alt="logo-">
 
-        </a>
+        </router-link>
         <div class="header-right">
             <div class="nav-area-center">
                 <nav class="navigation">
