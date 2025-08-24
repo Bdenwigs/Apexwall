@@ -23,8 +23,8 @@ import Footer from '@/components/Footer.vue';
                     <div class="about-left-history pl--50 pt--30">
                         <img src="/assets/images/about/12.png" alt="about">
                     </div>
-                    <div class="history-image-left mt--55 rts-reveal-one">
-                        <img class="rts-reveal-image-one" src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754689583/WhatsApp_Image_2025-08-08_at_09.43.36_xt0m7g.jpg" alt="about">
+                    <div class="history-image-left mt--55">
+                        <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754689583/WhatsApp_Image_2025-08-08_at_09.43.36_xt0m7g.jpg" alt="about">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 mt_sm--50">
@@ -39,8 +39,8 @@ import Footer from '@/components/Footer.vue';
                         <p class="disc rts-slide-up">
                             Whether you're envisioning a complete property overhaul, a stylish interior refresh, or a flawless new coat of paint, our dedicated team is here to turn your vision into a stunning reality. We serve Peterborough, UK, and the surrounding areas, ensuring local expertise and a personalized approach for every client.
                         </p>
-                        <div class="history-right-img mt--80 rts-reveal-one">
-                            <img class="rts-reveal-image-one " src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754746953/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_bxgwof.jpg"  alt="">
+                        <div class="history-right-img mt--80">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754746953/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_bxgwof.jpg"  alt="">
                         </div>
                     </div>
                 </div>
