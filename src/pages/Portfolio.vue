@@ -110,11 +110,11 @@
                   <h3 class="text-center">Toilet Repair & Upgrade</h3>
                     <div class="row">
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239125/WhatsApp_Image_2025-08-03_at_17.37.52_4_fnrrl0.jpg" alt="before toilet refurbishment" class="img-fluid h-100">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092795/toilet-before_dposzn.jpg" alt="before toilet refurbishment" class="img-fluid">
                             <p class="text-center mt-2">Before</p>
                         </div>
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239127/WhatsApp_Image_2025-08-03_at_17.37.52_h52jap.jpg" alt="toilet refurbishment" class="img-fluid h-100">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092793/toilet-after_rmpcdg.jpg" alt="toilet refurbishment" class="img-fluid">
                             <p class="text-center mt-2">After</p>
                         </div>
                     </div>
@@ -123,11 +123,11 @@
                   <h3 class="text-center">Wall Papering & Remodelling</h3>
                     <div class="row">
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1755666506/IMG-20250819-WA0013_zxwkan.jpg" alt="" class="img-fluid h-100">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092795/wallp-before_rymcis.jpg" alt="Wall Papering Before" class="img-fluid">
                             <p class="text-center mt-2">Before</p>
                         </div>
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1755666506/IMG-20250819-WA0015_wbn1gl.jpg" alt="" class="img-fluid h-100">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092787/room-finishing_nmhuce.jpg" alt="wall papering after" class="img-fluid">
                             <p class="text-center mt-2">After</p>
                         </div>
                     </div>
@@ -136,24 +136,50 @@
                   <h3 class="text-center">Affordable Kitchen Makeover</h3>
                     <div class="row">
                         <div class="col-6 ">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/c_crop,ar_3:4/v1755668917/abbd4193-c790-4b14-8ff2-d38aebe22040.png" alt="" class="img-fluid h-100">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092781/officek-before_a4ehjo.jpg" alt="before kitchen makeover" class="img-fluid">
                             <p class="text-center mt-2">Before</p>
                         </div>
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.51_4_xyp3xv.jpg" alt="" class="img-fluid h-100">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092747/kitchen-after_b9g7r2.jpg" alt="aftrer kitchen makeover" class="img-fluid">
                             <p class="text-center mt-2">After</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 pt-md-5">
-                  <h3 class="text-center">Wall Plastering & Painting</h3>
+                  <h3 class="text-center">Office Revamp</h3>
                     <div class="row">
-                        <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239130/WhatsApp_Image_2025-08-03_at_17.37.53_1_j4qbsg.jpg" alt="" class="img-fluid h-100">
+                        <div class="col-6 ">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756094829/offre_uw98rq.jpg" alt="before office revamp" class="img-fluid">
                             <p class="text-center mt-2">Before</p>
                         </div>
                         <div class="col-6">
-                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1754239114/WhatsApp_Image_2025-08-03_at_17.37.52_2_dielwt.jpg" alt="" class="img-fluid h-100">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092786/office-after_gulk9w.jpg" alt="after office revamp" class="img-fluid">
+                            <p class="text-center mt-2">After</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-md-5">
+                  <h3 class="text-center">Painting and Decoration</h3>
+                    <div class="row">
+                        <div class="col-6 ">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092734/IMG-20250824-WA0009_yte4ok.jpg" alt="before painting and decoration" class="img-fluid">
+                            <p class="text-center mt-2">Before</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092739/IMG-20250824-WA0010_xkkxcg.jpg" alt="after painting and decoration" class="img-fluid">
+                            <p class="text-center mt-2">After</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-md-5">
+                  <h3 class="text-center">Mould Treatment</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756092757/mod-before_esa9is.jpg" alt="before mould treatment" class="img-fluid">
+                            <p class="text-center mt-2">Before</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://res.cloudinary.com/dz5vmj911/image/upload/v1756094256/mouldafter_anfbv9.jpg" alt="after mould treatment" class="img-fluid">
                             <p class="text-center mt-2">After</p>
                         </div>
                     </div>
