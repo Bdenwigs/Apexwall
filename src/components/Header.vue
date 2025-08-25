@@ -4,6 +4,7 @@
             <img src="/assets/images/logo/apex_logo.png" width="150"  alt="logo-">
 
         </router-link>
+        
         <div class="header-right">
             <div class="nav-area-center">
                 <nav class="navigation">
