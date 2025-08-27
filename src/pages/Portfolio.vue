@@ -189,16 +189,32 @@
     </div>
     </div>
   </div>
+  
   <Footer />
 </template>
 
 <script>
 import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
+
+import { useHead } from "@vueuse/head";
+
 export default {
   components: {
     Header,
     Footer,
+    MobileMenu,
+  },
+  setup() {
+    useHead({
+      title: 'Portfolio | ApexWall\'s Finest Work',
+      meta: [
+        {
+          name: 'description',
+          content: 'Browse the portfolio of ApexWall. A showcase of our finest work in home refurbishment, interior design, and professional painting services in Peterborough.',
+        },
+      ],
+    });
   },
 };
 </script>

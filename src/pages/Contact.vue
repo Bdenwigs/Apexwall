@@ -3,6 +3,18 @@ import Header from '@/components/Header.vue';
 import Pageheader from '@/components/Pageheader.vue';
 import Workprocess from '@/components/Workprocess.vue';
 import Footer from '@/components/Footer.vue';  
+
+import { useHead } from '@vueuse/head';
+
+useHead({
+  title: 'Contact ApexWall | Get a Free Quote for Your Project',
+  meta: [
+    {
+      name: 'description',
+      content: 'Contact ApexWall for a free, no-obligation quote on your home refurbishment, painting, or interior design project in Peterborough. Let\'s discuss your vision.',
+    },
+  ],
+});
 </script>
 <template>
     <Header />
@@ -141,5 +153,6 @@ import Footer from '@/components/Footer.vue';
             </div>
         </div>
     </div>
+
     <Footer/>    
 </template>

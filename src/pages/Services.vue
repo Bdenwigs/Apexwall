@@ -2,6 +2,17 @@
 import Header from '@/components/Header.vue';
 import Workprocess from '@/components/Workprocess.vue';
 import Footer from '@/components/Footer.vue';  
+import { useHead } from '@vueuse/head';
+
+useHead({
+  title: 'Our Services | ApexWall - Refurbishment, Painting, Design',
+  meta: [
+    {
+      name: 'description',
+      content: 'Explore the wide range of services offered by ApexWall in Peterborough, including home refurbishment, professional painting, and bespoke interior design.',
+    },
+  ],
+});
 </script>
 
 <template>
@@ -232,5 +243,6 @@ import Footer from '@/components/Footer.vue';
             </div>
         </div>
     </div>
+    
     <Footer/>
 </template>

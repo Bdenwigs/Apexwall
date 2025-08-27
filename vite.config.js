@@ -16,4 +16,8 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  ssgOptions: {
+    entry: 'src/main.js',
+    hostname: 'https://apexwall.co.uk',
+  },
 })

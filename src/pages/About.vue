@@ -3,6 +3,17 @@ import Header from '@/components/Header.vue';
 import Pageheader from '@/components/Pageheader.vue';
 import Workprocess from '@/components/Workprocess.vue';
 import Footer from '@/components/Footer.vue';  
+import { useHead } from '@vueuse/head';
+
+useHead({
+  title: 'About ApexWall | Our Story and Mission',
+  meta: [
+    {
+      name: 'description',
+      content: 'Learn about ApexWall, our commitment to quality, and the team of expert painters, decorators, and interior designers transforming homes in Peterborough, UK.',
+    },
+  ],
+});
 </script>
 
 <template>

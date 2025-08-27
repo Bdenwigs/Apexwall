@@ -599,54 +599,7 @@
                 </div>
             </div>
         </div>
-        <!-- mobile menu area start -->
-        <div class="mobile-menu-main">
-            <nav class="nav-main mainmenu-nav mt--30">
-                <ul class="mainmenu metismenu" id="mobile-menu-active">
-                    <li>
-                        <a href="#" @click.prevent="navigate('/')" class="main">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" @click.prevent="navigate('/about')" class="main">About</a>
-                    </li>
-                    <li>
-                        <a href="#" @click.prevent="navigate('/services')" class="main">Services</a>
-                    </li>
-                    <li>
-                        <a href="#" @click.prevent="navigate('/portfolio')" class="main">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#" @click.prevent="navigate('/contact')" class="main">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="rts-social-style-one pl--20 mt--100">
-                <ul>
-                    <li>
-                        <a href="/">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- mobile menu area end -->
+       <MobileMenu/>
     </div>
     <!-- header style two End -->
 
@@ -684,6 +637,8 @@ import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import Workprocess from "../components/Workprocess.vue";
 import HeroSection from "@/components/HeroSection.vue";
+import MobileMenu from "@/components/MobileMenu.vue";
+import { useHead } from "@vueuse/head";
 
 export default {
   name: "Home",
@@ -692,6 +647,18 @@ export default {
     Footer,
     Workprocess,
     HeroSection,
+    MobileMenu,
+  },
+  setup() {
+    useHead({
+      title: 'ApexWall - Transform Your Home in Peterborough | Refurbishing, Painting & Interior Design',
+      meta: [
+        {
+          name: 'description',
+          content: 'Professional home refurbishing, house renovation, interior decoration, and painting services in Peterborough, UK. Expert interior designers, exterior painters, wall painting, kitchen makeovers, bathroom remodeling, living room upgrades, and stylish home improvements. Trusted local decorators for residential and commercial property transformations.',
+        },
+      ],
+    })
   },
   methods: {
     navigate(path) {
